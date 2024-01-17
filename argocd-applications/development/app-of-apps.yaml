@@ -6,8 +6,8 @@ metadata:
 spec:
   project: development
   source:
-    repoURL: 'git@github.com:Saurabh-tcs/argocd-app-of-apps-helm.git'
-    targetRevision: rev
+    repoURL: https://github.com/Saurabh-tcs/argocd-app-of-apps-helm.git
+    targetRevision: dd0d072
     path: charts/apps
     helm:
       valueFiles:
