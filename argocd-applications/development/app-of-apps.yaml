@@ -7,7 +7,7 @@ spec:
   project: development
   source:
     repoURL: https://github.com/Saurabh-tcs/argocd-app-of-apps-helm.git
-    targetRevision: dd0d072
+    targetRevision: ee3fff6
     path: charts/apps
     helm:
       valueFiles:
