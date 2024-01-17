@@ -2,13 +2,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: app-of-apps-dev
-  namespace: argocd
-  finalizers:
-    - resources-finalizer.argocd.argoproj.io
+  namespace: openshift-gitops
 spec:
   project: development
   source:
-    repoURL: 'git@github.com:ranrubin/argocd-app-of-apps.git'
+    repoURL: 'git@github.com:Saurabh-tcs/argocd-app-of-apps-helm.git'
     targetRevision: rev
     path: charts/apps
     helm:
